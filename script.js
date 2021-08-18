@@ -278,6 +278,4 @@ document.querySelector('.ran-on').addEventListener('click', function(){
 
 document.querySelector('.reset').addEventListener('click', function(){
   localStorage.clear();
-  document.location.reload(true);
-  window.location.reload()
 });
