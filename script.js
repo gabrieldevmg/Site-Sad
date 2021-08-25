@@ -73,7 +73,7 @@ document.querySelector('.xCaipiraSoma').addEventListener('click', function(){
   // soma no lanche
   var numero = parseInt(contadorxCaipira.textContent) + 1; 
   contadorxCaipira.textContent = numero;
-  somatorioTudoDuplo++;
+  somatorioCaipira++;
 });
 
 document.querySelector('.xCaipiraSub').addEventListener('click', function(){
